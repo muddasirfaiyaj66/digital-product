@@ -51,7 +51,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.banner-btn{
+.btn{
     background-color: red ;
     color:white;
     padding: 15px 20px;
@@ -60,6 +60,29 @@
     cursor:pointer;
     
 }
-.banner-btn:hover{
+.btn:hover{
     background-color: rgb(90, 44, 255);
+}
+.about-us-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+    height: 50vh;
+}
+.about-us-title{
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.about-us-details{
+    weight:250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.title{
+    margin-top: 10px;
 }
